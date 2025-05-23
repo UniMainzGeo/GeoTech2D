@@ -19,9 +19,9 @@ Input parameters must be defined in a separate calling script
 
 Parameter definition should be followed by a call to runGeoTech2D function
 
-See description in GeoTech2D.py module
+See description in CODE/src/GeoTech2D.py module
 
-To facilitate input preparation use helper functions form utils.py module
+To facilitate input preparation use helper functions form CODE/src/utils.py module
 
 #### Requirements
 
@@ -42,9 +42,9 @@ Input parameters must be defined in a separate calling script
 
 Parameter definition should be followed by a call to runMeshPy function
 
-See description in meshpy_triangle_api.py module
+See description in MESH/src/meshpy_triangle_api.py module
 
-To facilitate input preparation use helper functions form utils.py module
+To facilitate input preparation use helper functions form MESH/src/utils.py module
 
 #### Requirements
 
