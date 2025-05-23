@@ -23,7 +23,7 @@ def runGeoTech2D(data):
 #
 # setupname - output sub-directory name (created automatically in output directory)
 # meshfile  - mesh file name expected to locate in mesh directory (should exist)
-# phases    - material parameters (list of dictionaries see utils.py) 
+# phases    - material parameters (dictionary of dictionaries see utils.py) 
 #             friction and dilatation angles must be specified in degrees
 # params    - time step parameters and solution controls (dictionary see utils.py)
 #             time must be specified in years
