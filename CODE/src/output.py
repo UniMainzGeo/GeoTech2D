@@ -36,7 +36,7 @@ def export2Paraview(vtkgrp, outfile, step, nodes, elems, nc, nipe, attr, Ut, U, 
     pointData["Pf   [MPa  ]"] = np.copy(pf/scl.MPa)
     pointData["Temp [C    ]"] = np.copy(T)
 
-    # output solutin variables
+    # output solution variables
     outputSolVar(elems, nc, nipe, pointData, svar)
 
     # get time step output file name
