@@ -6,7 +6,6 @@ The code and the numerical formulation to solve problems with combined mode-I/mo
 
 - A.A. Popov, N. Berlie and B.J.P. Kaus (2025, submitted) A dilatant visco-elasto-viscoplasticity model with globally continuous tensile cap: stable two-field mixed formulation. *Geoscientific Model Development*
 
-***
 ### Instructions to run GeoTech2D code
 
 To start simulation do the following:
@@ -29,7 +28,6 @@ conda install -c anaconda numpy scipy
 
 conda install -c conda-forge pyevtk
 
-***
 ### Instructions to generate mesh with MeshPy package
 
 MeshPy package implements Python API for Triangle quality mesh generator
