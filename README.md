@@ -11,24 +11,24 @@ The code and the numerical formulation to solve problems with combined mode-I/mo
 ![Mode-I propagation](/VIDEO/dyke_Pf_50.gif)
 ![Crustal scale extension wioth mode-I & mode-II plasticity](/VIDEO/ductile_EII_50.gif)
 
-### Instructions to run the GeoTech2D code
+### 1. Instructions to run GeoTech2D
 
 To start a simulation do the following:
 
-- create a directory called `mesh`
-- place a binary `.npz` file in directory `mesh` as specified in setup script (e.g. `crust.npz`)
-- invoke the setup script from python (e.g. `python crust.py`)
+- Create a directory called `mesh`
+- Create a mesh as described below
+- Place a binary `.npz` file in directory `mesh` as specified in the setup script (e.g. `crust.npz`)
+- Invoke the setup script from python (e.g. `python crust.py`)
 
-#### Prepare new simulation
+#### 1.1 Prepare new simulation
 
 Define all input parameters in a separate calling script (use the supplied scripts for reference).
 
 Parameter definition should be followed by a call to the `runGeoTech2D` function.
-See description in `CODE/src/GeoTech2D.py` module
+See description in `CODE/src/GeoTech2D.py` module.
+To facilitate input preparation, you can use helper functions from the `CODE/src/utils.py` module.
 
-To facilitate input preparation use the helper functions from the `CODE/src/utils.py` module
-
-#### Requirements
+#### 1.2 Requirements
 
 ```
 conda install -c anaconda numpy scipy
@@ -36,24 +36,25 @@ conda install -c anaconda numpy scipy
 conda install -c conda-forge pyevtk
 ```
 
-### Instructions to generate mesh with MeshPy package
+### 2. Instructions to generate mesh with MeshPy package
 
-The `MeshPy` package implements the Python API for the `Triangle` quality mesh generator
+The `MeshPy` package implements the Python API for the `Triangle` quality mesh generator.
 
-To generate a mesh simply invoke the corresponding setup script (e.g.` python crust.py`)
+To generate a mesh, simply invoke the corresponding setup script (e.g.` python crust.py`).
 
-Binary `.npz` file will be placed in directory `mesh` (will be created if necessary)
+Binary `.npz` file will be placed in directory `mesh` (will be created if necessary).
 
-#### Generate new grid
+#### 2.1 Generate new grid
 
 Define all input parameters in a separate calling script (use the supplied scripts for reference).
 
-Parameter definition should be followed by a call to `runMeshPy` function
-See description in `MESH/src/meshpy_triangle_api.py` module
+Parameter definition should be followed by a call to `runMeshPy` function.
 
-To facilitate input preparation use helper functions from the `MESH/src/utils.py` module
+See description in `MESH/src/meshpy_triangle_api.py` module.
 
-#### Requirements
+To facilitate input preparation use helper functions from the `MESH/src/utils.py` module.
+
+#### 2.2 Requirements
 ```
 conda install -c anaconda numpy scipy matplotlib
 
