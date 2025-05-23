@@ -25,15 +25,15 @@ def runGeoTech2D(data):
 # meshfile  - mesh file name expected to locate in mesh directory (should exist)
 # phases    - material parameters (dictionary of dictionaries see utils.py) 
 #             friction and dilatation angles must be specified in degrees
-# params    - time step parameters and solution controls (dictionary see utils.py)
+# params    - time step parameters and solution controls (dictionary, see utils.py)
 #             time must be specified in years
 # bc_nums   - boundary marker indices (start from 2) (list)
 # bc_type   - boudary condition types "disp" or "track" (list)
-#             "disp" - velocity in mm/yr, "track" - traction (list)
+#             "disp" - velocity in mm/yr, "track" - traction vector
 # bc_vals   - boundary condition values (list of numpy arrays) 
-# dyke      - optional dyke setup parameters (dictionary see dyke.py)
-# aps       - optional APS perturbation parameters (dictionary see crust.py)
-# temp      - optional temperature initialization parameters (dictionary see ductile.py)
+# dyke      - optional dyke setup parameters (dictionary, see dyke.py)
+# aps       - optional APS perturbation parameters (dictionary, see crust.py)
+# temp      - optional temperature initialization parameters (dictionary, see ductile.py)
 #==============================================================================
 
     # start time tracking   
