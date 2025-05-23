@@ -1,4 +1,5 @@
 # GeoTech2D
+[![DOI](https://zenodo.org/badge/984744668.svg)](https://doi.org/10.5281/zenodo.15496842)
 
 This repository contains the source code of `GeoTech2D` which is a 2D unstructured finite element code for geomechanical applications with visco-elasto-viscoplastic material properties and mode-I and mode-II regularized plasticity. It employs LBB-stable conforming Crouzeix-Raviart triangular elements using a mixed displacement and pressure increment formulation.
 
