@@ -25,7 +25,9 @@ To start a simulation do the following:
 Define all input parameters in a separate calling script (use the supplied scripts for reference).
 
 Parameter definition should be followed by a call to the `runGeoTech2D` function.
+
 See description in `CODE/src/GeoTech2D.py` module.
+
 To facilitate input preparation, you can use helper functions from the `CODE/src/utils.py` module.
 
 #### 1.2 Requirements
