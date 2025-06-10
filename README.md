@@ -5,7 +5,7 @@ This repository contains the source code of `GeoTech2D` which is a 2D unstructur
 
 The code and the numerical formulation to solve problems with combined mode-I/mode-II plasticity models in a robust manner is described in detail in:
 
-- A.A. Popov, N. Berlie and B.J.P. Kaus (2025, submitted) A dilatant visco-elasto-viscoplasticity model with globally continuous tensile cap: stable two-field mixed formulation. *Geoscientific Model Development*
+- [A.A. Popov, N. Berlie and B.J.P. Kaus (2025, submitted) A dilatant visco-elasto-viscoplasticity model with globally continuous tensile cap: stable two-field mixed formulation. *Geoscientific Model Development*](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-2469/)
 
 ![Mode-I propagation](/VIDEO/dyke_Vx_50.gif)
 ![Mode-I propagation](/VIDEO/dyke_Pf_50.gif)
